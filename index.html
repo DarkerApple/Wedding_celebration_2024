@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary!</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class="fade-in" style="font-family: jua;">Happy Wedding Anniversary, Mom & Dad! 🎉</h1>
+    </header>
+
+    <section class="main-content">
+        <!-- Countdown Timer -->
+        <div class="countdown">
+            <h2 id="countdownTimer">Time left until 7 PM KST: <span id="timer">00:00:00</span></h2>
+        </div>
+
+        <div class="photo-gallery">
+            <img src="heart.jpg" alt="Wedding Photo 1" class="slide-in">
+            <img src="flower.jpg" alt="Wedding Photo 2" class="slide-in">
+            <img src="heart.jpg" alt="Wedding Photo 3" class="slide-in">
+        </div>
+
+        <div class="message zoom-in">
+            <h2>Dear Mom & Dad,</h2>
+            <p class="Jua">First of all, I want to thank you for always taking care of me and my brother. I also want to wish you a very happy wedding anniversary! After 13 years of being together with you, there is so much I am grateful for. Even if I had ten mouths, I wouldn't be able to express it all. 
+                <ul class="Jua">
+                    <li class="Jua" style="text-align: left;">
+                        Giving me birth
+                    </li>
+                    <li class="Jua" style="text-align: left;">
+                        Letting me do ANYTHING I want
+                    </li>
+                    <li class="Jua" style="text-align: left;">
+                        Giving me the best education in the entire world
+                    </li>
+                    <li class="Jua" style="text-align: left;">
+                        And SO MUCH MORE!
+                    </li>
+                </ul>
+                I hope both of you live peacefully forever, and do anything  you want. I also hope we all can be together until we reach the end.
+            </p>
+            <p>With love,</p>
+            <p>Ryan 💖</p>
+        </div>
+
+        <div class="guestbook zoom-in">
+            <h2>Leave a Wish 🎉</h2>
+            <form id="guestbookForm">
+                <input type="text" id="guestName" placeholder="Name" required>
+                <textarea id="guestMessage" placeholder="Celebration Message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="guestMessages"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Anniversary Celebration</p>
+    </footer>
+</body>
+</html>
